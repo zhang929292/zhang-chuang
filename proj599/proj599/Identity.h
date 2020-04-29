@@ -1,0 +1,1 @@
+#pragma once#include <iostream>using namespace std;class Identity{public:    //operation menu    virtual void operMenu() = 0;    //Name    string m_Name;    //Password    string m_Pwd;};
